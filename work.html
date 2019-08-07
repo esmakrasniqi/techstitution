@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap project</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+<style>
+  .nav-link{
+    color:black
+  }
+   li a:hover {
+  color:black;
+  }
+.container1 {
+  position: relative;
+  width: 30%;
+ }
+
+.image1 {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.container1:hover .overlay1 {
+  opacity: 1;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+<nav class="navbar1">
+	
+  <h2>Riddle</h2>
+ 
+
+
+    <ul class="menu1">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+
+    
+      <button style="background-color: black; color:white;"class="btn" type="submit" >Get in touch</button>
+
+</nav>
+<section class="intro-section">
+<div class="container text-left">
+<div class="row">
+<div class="col-xl-10 offset-xl-1">
+<h2 class="section-title">I’m a freelance <span>digital designer</span>, with +10 years of experience</h2>
+</div>
+</div>
+</div>
+</section>
+
+<section class="row" style="display: flex;justify-content: center; justify-content: space-around;">
+  
+<div class="container1">
+  <img src="images/2.jpg" alt="1" class="image1">
+  <div class="overlay1">
+    <div class="text1">Projekti i pare
+       <a href="https://esmakrasniqi.github.io/VizitoPrishtinen/" class="btn btn-primary">Open webpage</a>
+    </div>
+
+  </div>
+</div>
+<div class="container1">
+  <img src="images/2.png" alt="2" class="image1">
+  <div class="overlay1">
+    <div class="text1">Projekti i dyte
+      <a href="flex/index.html" class="btn btn-primary">Open webpage</a>
+    </div>
+
+  </div>
+</div>
+<div class="container1">
+  <img src="images/norman.jpg" alt="3" class="image1">
+  <div class="overlay1">
+    <div class="text1">Projekti i trete
+      <a href="https://esmakrasniqi.github.io/techstitution/java1/template.html" class="btn btn-primary">Open webpage</a></div>
+  </div>
+</div>
+
+</section>
+
+
+<footer class="footer-section text-center" style="padding: 110px 0px;">
+<div class="container">
+<h2 class="section-title " >Let’s work together</h2>
+<a href="" class="site-btn" style="background-color: black;color: white; padding: 6px 12px; ">Get in touch</a>
+<div class="social-links">
+<a href=""><img src="images/pin.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/link.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/insta.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/fb.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/twitter.jpg" style="width: 20px;height: 20px"></a>
+ </div>
+<div class="copyright">
+<p style="color:grey;"> Copyright &copy; ODK 2019 All rights reserved | This template is made by Colorlib</p>
+</div>
+
+</div>
+</div>
+
+</footer>
+
+
+</body>
+</html>

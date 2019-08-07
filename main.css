@@ -1,37 +1,48 @@
-#menu11{
+
+.navbar1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menu1{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #334;
-}
-#item {
-    float:right;
+	}
 
-    color: white;
-font-size:18px;
-    text-align: top-right;
-  padding:10px 16px;
-    text-decoration: none;
+	.intro-section{
+		font-size: 16px;
+		padding: 110px 0px;
+	}
+	h2.section-title{
+		font-size: 60px;
+	}
+	span{
+		color: grey;
+	}
+	.portfolio-section{
+		font-size: 16px;
+	}
+	.container{
+		margin: 0px 45.5px;
+		padding: 0px 15px;
+	}
+	ul{
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+	
+	}
+	li{
+		margin-left: 30px;
+	}
+	
+	.social-links {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color:black;
 }
-.body1{
-    background-color: gainsboro;
-    border-radius: 3px;
-    text-align: center;
-       font-family: "Arial";
-}
-.foto{
-    background-color: white;
-margin: 16px 10px 50px 10px;
-border-radius: 10px;
-}
-.jeta
-{
-     margin: 16px 500px 50px 500px;
-    text-align: left;
 
-}
-content{
-
-}
+.social-links a:last-child{margin-right:0}

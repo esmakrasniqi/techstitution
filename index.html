@@ -1,107 +1,120 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Techstitution</title>
+	<title>Bootstrap project</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/dist/css/bootstrap.css">
+<style>
+  .nav-link{
+    color:black
+  }
+  li a:hover {
+  color:black;
+  }
+
+</style>
 </head>
-
 <body>
-<h1> This is my first tag!!!</h1>
-<h2> This is another heading</h2>
-<h5> This is the another heading!!!!</h5>
-<p>Lorem Ipsum is <strong>simply dummy text</strong> of the printing and typesetting industry. <em>Lorem Ipsum </em>has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+<nav class="navbar1">
 	
-	<p>afhaoishfahfafoaofsaofoisaghighdgdhgsgdsgsaifaiuogiurevganmdvndsgeiufuiasfhahfs</p>
-<h2>My color list</h2>
-<ol>
-	<li>Red</li>
-	<li>Orange</li>
-	<li>Yellow</li>
-	<ul>
-		<li>Sunflower</li>
-		<li>Banana</li>
-		    <ol>
-		        <li>Frozen Banana</li>
-		        <li>Non-frozen Banana</li>
-	        </ol>
-	</ul>
+  <h2>Riddle</h2>
+ 
 
-</ol>
-<ul>
-	<li><strong>Red</strong></li>
-	<li>Orange</li>
-	<li>Yellow</li>
+
+    <ul class="menu1">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="work.html">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+
+    
+      <button style="background-color: black; color:white;"class="btn" type="submit" >Get in touch</button>
+
+</nav>
+
+<section class="intro-section">
+<div class="container text-center">
+<div class="row">
+<div class="col-xl-10 offset-xl-1">
+<h2 class="section-title">I’m a freelance <span>digital designer</span>, with +10 years of experience</h2>
+</div>
+</div>
+</div>
+</section>
+
+<section class="menu1">
+<div class="container">
+<ul class="portfolio-filter controls">
+<li class="control mixitup-control-active" data-filter="all">All</li>
+<li class="control" data-filter=".web" >Web design</li>
+<li class="control" data-filter=".digital">Digital design</li>
+<li lass="control" data-filter=".brand">Brand Identity</li>
 </ul>
-<hr>
-<table border="1">
-	<thead>
-		<caption>Rreshtat, Kolonat</caption>
-	</thead>
-	<tr>
-		<td>Reshti1 Kolona1 </td>
-		<td>Reshti1 Kolona2</td>
-	</tr>
-	<tr>
-		<td>Reshti2 Kolona1</td>
-		<td>Reshti2 Kolona2</td>
-	</tr>
-</table>
-<br>
-<table border="1">
-	
-	<tr>
-		<th>Emri </th>
-		<th>Mbiemri</th>
-		<th>Email</th>
-	</tr>
-	<tr>
-		<td>Esma</td>
-	    <td>Krasniqi</td>
-	    <td>krasniqiesma@gmail.com</td>	
-	</tr>
+</div>
+</section>
 
-</table>
-<br><br>
-<form style="background-color: pink">
-	Emri: 
-	<input type="text" name="firstname" value="Esma"> <br><br>
-	Mbiemri: 
-	<input type="text" name="lastname"> <br><br>
-	Email: 
-	<input type="email" name="email"> <br><br>
-	Ditelinda: 
-	<input type="date" name="firstname" ><br><br>
-	<input type="submit" name="submit">
-</form>
+<div class="row" style="padding: 20px; margin: 10px; display: flex; justify-content: space-around;">
+<div class="card" style="width: 18rem; background-color: lightgrey;">
+  <img class="card-img-top" src="images/2.jpg" alt="Prishtina">
+  <div class="card-body" ><div class="mix col-lg-6 col-md-6 web">
+    <h5 class="card-title">Vizito Prishtinen</h5>
+    <p class="card-text">This is my first webpage.</p>
+    <a href="https://esmakrasniqi.github.io/VizitoPrishtinen/" class="btn btn-primary">Open webpage</a>
+     <a href="https://github.com/esmakrasniqi/VizitoPrishtinen"target="blank" class="card-link">Open code</a>
+  </div></div>
+</div>
+<div class="card" style="width: 18rem; background-color: lightgrey;">
+  <img class="card-img-top" src="C:\Users\Lenovo\Desktop\techstitution\images\norman.jpg" alt="Tribute Page">
+  <div class="card-body"><div class="mix col-lg-6 col-md-6 digital">
+    <h5 class="card-title">Dr.Norman Borlaug</h5>
+    <p class="card-text">Tribute Page.</p>
+    <a href="https://esmakrasniqi.github.io/techstitution/java1/template.html" class="btn btn-primary">Open webpage</a>
+     <a href="https://github.com/esmakrasniqi/techstitution/blob/master/template.html" target="blank"class="card-link">Open code</a>
+  </div></div>
+</div>
+<div class="card" style="width: 18rem; background-color: lightgrey;">
+  <img class="card-img-top" src="images/2.png" alt="Trombones">
+  <div class="card-body"><div class="mix col-lg-12 col-md-6 brand">
+    <h5 class="card-title">Original Trombones</h5>
+    <p class="card-text">Product landing page</p>
+    <a href="https://esmakrasniqi.github.io/techstitution/flex/index.html" class="btn btn-primary">Open webpage</a>
+     <a href="#" target="blank"class="card-link">Open code</a>
+  </div></div>
+</div>
+</div>
 
-	<h1>Register</h1>
-	<br>
-	<legend>Info</legend>
-	<fieldset>
-	<form>
-		
-		First Name: <input type="text" name="firstname" placeholder="John">
-		Last Name: <input type="text" name="lastname" placeholder="Smith">
-		<br>
-		Male<input type="radio" name="gender"> Female <input type="radio" name="gender">
-		 Other <input type="radio" name="gender"><br>
-		 Email: <input type="text" name="email" placeholder="Your email">
-		 Password: <input type="password" name="password" placeholder="Your password">
-		 <br>
-		 Birthday: <input type="date" name="birthday"><br>
-		 I agree to the terrms and conditions <input type="checkbox" name="agree"> <br>
-		 <input type="button" name="submit" value="submit">
-		 <input type="button" name="reset" value="reset">
-</fieldset>
-	</form>
+<footer class="footer-section text-center" style="padding: 110px 0px;">
+<div class="container">
+<h2 class="section-title " >Let’s work together</h2>
+<a href="" class="site-btn" style="background-color: black;color: white; padding: 6px 12px;">Get in touch</a>
+<div class="social-links">
+<a href=""><img src="images/pin.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/link.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/insta.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/fb.png" style="width: 20px;height: 20px"></a>
+<a href=""><img src="images/twitter.jpg" style="width: 20px;height: 20px"></a>
+ </div>
+<div class="copyright">
+<p style="color:grey;"> Copyright &copy; ODK 2019 All rights reserved | This template is made by Colorlib</p>
+</div>
 
-	<a href="https://opendatakosovo.org"><img src="images\odklogo.png"></a>
+</div>
+</div>
 
-	<h1><a href="template.html">TRIBUTE PAGE</a></h1>
-		<h2><a href="detyra1.html">Detyra 1</a></h2>
-
-
-
-
+</footer>
 
 </body>
 </html>
+
+
+

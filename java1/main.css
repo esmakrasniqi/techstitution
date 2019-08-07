@@ -1,0 +1,37 @@
+#menu11{
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #334;
+}
+#item {
+    float:right;
+
+    color: white;
+font-size:18px;
+    text-align: top-right;
+  padding:10px 16px;
+    text-decoration: none;
+}
+.body1{
+    background-color: gainsboro;
+    border-radius: 3px;
+    text-align: center;
+       font-family: "Arial";
+}
+.foto{
+    background-color: white;
+margin: 16px 10px 50px 10px;
+border-radius: 10px;
+}
+.jeta
+{
+     margin: 16px 500px 50px 500px;
+    text-align: left;
+
+}
+content{
+
+}
